@@ -1,0 +1,73 @@
+.stepper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stepper-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 40px;
+  min-height: 40px;
+}
+
+.stepper-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--color-gray-border);
+  color: var(--color-gray-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  position: absolute;
+  left: 0;
+  transition: all 0.2s ease;
+}
+
+.stepper-circle.active {
+  background-color: var(--color-orange-inprogress);
+  color: white;
+}
+
+.stepper-circle.completed {
+  background-color: var(--color-green-success);
+  color: white;
+}
+
+.stepper-circle.completed svg {
+  width: 16px;
+  height: 16px;
+}
+
+.stepper-label {
+  color: var(--color-gray-text);
+  font-size: 14px;
+}
+
+.stepper-label.active {
+  color: #333;
+  font-weight: 500;
+}
+
+.stepper-circle.active + .stepper-label,
+.stepper-circle.completed + .stepper-label {
+  color: #333;
+  font-weight: 500;
+}
+
+.stepper-line {
+  position: absolute;
+  left: 15px;
+  top: 32px;
+  width: 2px;
+  height: 24px;
+  background-color: var(--color-gray-border);
+}
+
+.stepper-line.active {
+  background-color: var(--color-green-success);
+}
+

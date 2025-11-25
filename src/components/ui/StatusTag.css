@@ -1,0 +1,35 @@
+.status-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-complete {
+  background-color: var(--color-green-light);
+  color: var(--color-green-success);
+}
+
+.status-partially-filled {
+  background-color: var(--color-orange-light);
+  color: var(--color-orange-inprogress);
+}
+
+.status-not-started {
+  background-color: var(--color-pink-attention);
+  color: var(--color-red-error);
+}
+
+.status-under-review {
+  background-color: #FEF3C7;
+  color: #B45309;
+}
+
+.status-assigned {
+  background-color: var(--color-green-light);
+  color: var(--color-green-success);
+}
+

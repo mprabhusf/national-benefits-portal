@@ -1,0 +1,52 @@
+.acknowledgement-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.acknowledgement-card {
+  min-height: 500px;
+}
+
+.acknowledgement-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.acknowledgement-checkbox {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--color-gray-border);
+}
+
+.certify-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.certify-checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.acknowledgement-text {
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 32px;
+  white-space: pre-line;
+}
+
+.acknowledgement-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-gray-border);
+}
+

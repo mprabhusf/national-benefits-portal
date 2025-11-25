@@ -1,0 +1,32 @@
+.submission-confirmation-page {
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmation-card {
+  text-align: center;
+  padding: 64px 48px;
+}
+
+.confirmation-illustration {
+  font-size: 80px;
+  margin-bottom: 24px;
+}
+
+.confirmation-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.confirmation-subtext {
+  font-size: 18px;
+  color: var(--color-gray-text);
+  margin-bottom: 32px;
+}
+
